@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD55D1822DF8D6FE00CDC353 /* TabFast Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DD55D1812DF8D6FE00CDC353 /* TabFast Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD55D16C2DF8D6FE00CDC353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD55D1472DF8D6FC00CDC353 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD55D14E2DF8D6FD00CDC353;
+			remoteInfo = TabFast;
+		};
+		DD55D1762DF8D6FE00CDC353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD55D1472DF8D6FC00CDC353 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD55D14E2DF8D6FD00CDC353;
+			remoteInfo = TabFast;
+		};
+		DD55D1832DF8D6FE00CDC353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD55D1472DF8D6FC00CDC353 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD55D1802DF8D6FE00CDC353;
+			remoteInfo = "TabFast Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DD55D1A12DF8D6FE00CDC353 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DD55D1822DF8D6FE00CDC353 /* TabFast Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DD55D14F2DF8D6FD00CDC353 /* TabFast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabFast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD55D16B2DF8D6FE00CDC353 /* TabFastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabFastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD55D1752DF8D6FE00CDC353 /* TabFastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabFastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD55D1812DF8D6FE00CDC353 /* TabFast Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TabFast Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DD55D19B2DF8D6FE00CDC353 /* Exceptions for "TabFast Extension" folder in "TabFast Extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DD55D1802DF8D6FE00CDC353 /* TabFast Extension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DD55D1512DF8D6FD00CDC353 /* TabFast */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TabFast;
+			sourceTree = "<group>";
+		};
+		DD55D16E2DF8D6FE00CDC353 /* TabFastTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TabFastTests;
+			sourceTree = "<group>";
+		};
+		DD55D1782DF8D6FE00CDC353 /* TabFastUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TabFastUITests;
+			sourceTree = "<group>";
+		};
+		DD55D1852DF8D6FE00CDC353 /* TabFast Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DD55D19B2DF8D6FE00CDC353 /* Exceptions for "TabFast Extension" folder in "TabFast Extension" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "TabFast Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD55D14C2DF8D6FD00CDC353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD55D1682DF8D6FE00CDC353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD55D1722DF8D6FE00CDC353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD55D17E2DF8D6FE00CDC353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD55D1462DF8D6FC00CDC353 = {
+			isa = PBXGroup;
+			children = (
+				DD55D1512DF8D6FD00CDC353 /* TabFast */,
+				DD55D16E2DF8D6FE00CDC353 /* TabFastTests */,
+				DD55D1782DF8D6FE00CDC353 /* TabFastUITests */,
+				DD55D1852DF8D6FE00CDC353 /* TabFast Extension */,
+				DD55D1502DF8D6FD00CDC353 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD55D1502DF8D6FD00CDC353 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD55D14F2DF8D6FD00CDC353 /* TabFast.app */,
+				DD55D16B2DF8D6FE00CDC353 /* TabFastTests.xctest */,
+				DD55D1752DF8D6FE00CDC353 /* TabFastUITests.xctest */,
+				DD55D1812DF8D6FE00CDC353 /* TabFast Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD55D14E2DF8D6FD00CDC353 /* TabFast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD55D1A22DF8D6FE00CDC353 /* Build configuration list for PBXNativeTarget "TabFast" */;
+			buildPhases = (
+				DD55D14B2DF8D6FD00CDC353 /* Sources */,
+				DD55D14C2DF8D6FD00CDC353 /* Frameworks */,
+				DD55D14D2DF8D6FD00CDC353 /* Resources */,
+				DD55D1A12DF8D6FE00CDC353 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD55D1842DF8D6FE00CDC353 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DD55D1512DF8D6FD00CDC353 /* TabFast */,
+			);
+			name = TabFast;
+			packageProductDependencies = (
+			);
+			productName = TabFast;
+			productReference = DD55D14F2DF8D6FD00CDC353 /* TabFast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD55D16A2DF8D6FE00CDC353 /* TabFastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD55D1A52DF8D6FE00CDC353 /* Build configuration list for PBXNativeTarget "TabFastTests" */;
+			buildPhases = (
+				DD55D1672DF8D6FE00CDC353 /* Sources */,
+				DD55D1682DF8D6FE00CDC353 /* Frameworks */,
+				DD55D1692DF8D6FE00CDC353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD55D16D2DF8D6FE00CDC353 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DD55D16E2DF8D6FE00CDC353 /* TabFastTests */,
+			);
+			name = TabFastTests;
+			packageProductDependencies = (
+			);
+			productName = TabFastTests;
+			productReference = DD55D16B2DF8D6FE00CDC353 /* TabFastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD55D1742DF8D6FE00CDC353 /* TabFastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD55D1A82DF8D6FE00CDC353 /* Build configuration list for PBXNativeTarget "TabFastUITests" */;
+			buildPhases = (
+				DD55D1712DF8D6FE00CDC353 /* Sources */,
+				DD55D1722DF8D6FE00CDC353 /* Frameworks */,
+				DD55D1732DF8D6FE00CDC353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD55D1772DF8D6FE00CDC353 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DD55D1782DF8D6FE00CDC353 /* TabFastUITests */,
+			);
+			name = TabFastUITests;
+			packageProductDependencies = (
+			);
+			productName = TabFastUITests;
+			productReference = DD55D1752DF8D6FE00CDC353 /* TabFastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DD55D1802DF8D6FE00CDC353 /* TabFast Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD55D19C2DF8D6FE00CDC353 /* Build configuration list for PBXNativeTarget "TabFast Extension" */;
+			buildPhases = (
+				DD55D17D2DF8D6FE00CDC353 /* Sources */,
+				DD55D17E2DF8D6FE00CDC353 /* Frameworks */,
+				DD55D17F2DF8D6FE00CDC353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DD55D1852DF8D6FE00CDC353 /* TabFast Extension */,
+			);
+			name = "TabFast Extension";
+			packageProductDependencies = (
+			);
+			productName = "TabFast Extension";
+			productReference = DD55D1812DF8D6FE00CDC353 /* TabFast Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD55D1472DF8D6FC00CDC353 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					DD55D14E2DF8D6FD00CDC353 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					DD55D16A2DF8D6FE00CDC353 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = DD55D14E2DF8D6FD00CDC353;
+					};
+					DD55D1742DF8D6FE00CDC353 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = DD55D14E2DF8D6FD00CDC353;
+					};
+					DD55D1802DF8D6FE00CDC353 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = DD55D14A2DF8D6FC00CDC353 /* Build configuration list for PBXProject "TabFast" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD55D1462DF8D6FC00CDC353;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DD55D1502DF8D6FD00CDC353 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD55D14E2DF8D6FD00CDC353 /* TabFast */,
+				DD55D16A2DF8D6FE00CDC353 /* TabFastTests */,
+				DD55D1742DF8D6FE00CDC353 /* TabFastUITests */,
+				DD55D1802DF8D6FE00CDC353 /* TabFast Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD55D14D2DF8D6FD00CDC353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD55D1692DF8D6FE00CDC353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD55D1732DF8D6FE00CDC353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD55D17F2DF8D6FE00CDC353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD55D14B2DF8D6FD00CDC353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD55D1672DF8D6FE00CDC353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD55D1712DF8D6FE00CDC353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD55D17D2DF8D6FE00CDC353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD55D16D2DF8D6FE00CDC353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD55D14E2DF8D6FD00CDC353 /* TabFast */;
+			targetProxy = DD55D16C2DF8D6FE00CDC353 /* PBXContainerItemProxy */;
+		};
+		DD55D1772DF8D6FE00CDC353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD55D14E2DF8D6FD00CDC353 /* TabFast */;
+			targetProxy = DD55D1762DF8D6FE00CDC353 /* PBXContainerItemProxy */;
+		};
+		DD55D1842DF8D6FE00CDC353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD55D1802DF8D6FE00CDC353 /* TabFast Extension */;
+			targetProxy = DD55D1832DF8D6FE00CDC353 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD55D19D2DF8D6FE00CDC353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "TabFast Extension/TabFast_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TabFast Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TabFast Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nyvold.TabFast.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DD55D19E2DF8D6FE00CDC353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "TabFast Extension/TabFast_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TabFast Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TabFast Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nyvold.TabFast.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DD55D19F2DF8D6FE00CDC353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD55D1A02DF8D6FE00CDC353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DD55D1A32DF8D6FE00CDC353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TabFast/TabFast.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TabFast;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nyvold.TabFast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DD55D1A42DF8D6FE00CDC353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TabFast/TabFast.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TabFast;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nyvold.TabFast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DD55D1A62DF8D6FE00CDC353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nyvold.TabFastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabFast.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TabFast";
+			};
+			name = Debug;
+		};
+		DD55D1A72DF8D6FE00CDC353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nyvold.TabFastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabFast.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TabFast";
+			};
+			name = Release;
+		};
+		DD55D1A92DF8D6FE00CDC353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nyvold.TabFastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TabFast;
+			};
+			name = Debug;
+		};
+		DD55D1AA2DF8D6FE00CDC353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nyvold.TabFastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TabFast;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD55D14A2DF8D6FC00CDC353 /* Build configuration list for PBXProject "TabFast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD55D19F2DF8D6FE00CDC353 /* Debug */,
+				DD55D1A02DF8D6FE00CDC353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD55D19C2DF8D6FE00CDC353 /* Build configuration list for PBXNativeTarget "TabFast Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD55D19D2DF8D6FE00CDC353 /* Debug */,
+				DD55D19E2DF8D6FE00CDC353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD55D1A22DF8D6FE00CDC353 /* Build configuration list for PBXNativeTarget "TabFast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD55D1A32DF8D6FE00CDC353 /* Debug */,
+				DD55D1A42DF8D6FE00CDC353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD55D1A52DF8D6FE00CDC353 /* Build configuration list for PBXNativeTarget "TabFastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD55D1A62DF8D6FE00CDC353 /* Debug */,
+				DD55D1A72DF8D6FE00CDC353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD55D1A82DF8D6FE00CDC353 /* Build configuration list for PBXNativeTarget "TabFastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD55D1A92DF8D6FE00CDC353 /* Debug */,
+				DD55D1AA2DF8D6FE00CDC353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD55D1472DF8D6FC00CDC353 /* Project object */;
+}

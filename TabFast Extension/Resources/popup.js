@@ -1,1 +1,1 @@
-console.log("Hello World!", browser);
+console.log("Web Extension komponent, det bæææder", browser);
